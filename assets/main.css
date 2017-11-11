@@ -1,0 +1,31 @@
+* {
+	font-size: 14px;
+}
+
+.screen-css-file {
+	display: none;
+}
+
+.print-css-file {
+	display: none;
+}
+
+.screen-media-query {
+    display: none;
+}
+
+.print-media-query {
+    display: none;
+}
+
+@media screen {
+    .screen-media-query {
+        display: block;
+    }
+}
+
+@media print {
+    .print-media-query {
+        display: block;
+    }
+}

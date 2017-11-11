@@ -1,0 +1,23 @@
+{
+  "name": "print-css-toggle-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress -p",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.1",
+    "print-css-toggle": "file:../print-css-toggle",
+    "webpack": "3.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "webpack-dev-server": "2.9.4"
+  }
+}
