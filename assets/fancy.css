@@ -1,0 +1,38 @@
+.container {
+    margin: 1rem 0.5rem;
+}
+
+@media (min-width: 600px) {
+    .container {
+        margin: 1rem 2rem;
+    }
+}
+
+.results {
+    margin-top: 1rem;
+}
+
+.rule {
+    font-size: 20px;
+    padding: 0.5rem 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 0;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
+.btn:active {
+    background: #91d3ff;
+}

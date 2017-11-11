@@ -1,24 +1,28 @@
 <html>
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Print media toggle example</title>
-	<meta name="viewport" content="width=device-width">
-	
-	<link rel="stylesheet" href="assets/main.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Print media toggle example</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="assets/fancy.css">
+    <link rel="stylesheet" href="assets/general.css">
     <link rel="stylesheet" href="assets/screen.css" media="screen">
-	<link rel="stylesheet" href="assets/print.css" media="print">
+    <link rel="stylesheet" href="assets/print.css" media="print">
 </head>
 <body>
-	<h1>Toggle print styling using javascript</h1>
+    <div class="container">
+        <h1>Toggle print styling using javascript</h1>
 
-	<button data-toggle-css>Click here</button> to toggle the print styling.
+        <button data-toggle-css class="btn">Toggle</button>
 
-	<div class="print-css-file"><p>print CSS file is active</p></div>
-	<div class="screen-css-file"><p>screen CSS file is active</p></div>
-	<div class="print-media-query"><p>print media query is active</p></div>
-	<div class="screen-media-query"><p>screen media query is active</p></div>
-
-	<script src="assets/bundle.js"></script>
-	</body>
+        <div class="results">
+            <div class="print-css-link rule"><i class="fa fa-print"></i> print CSS link is active</div>
+            <div class="screen-css-link rule"><i class="fa fa-desktop"></i> screen CSS link is active</div>
+            <div class="print-media-query rule"><i class="fa fa-print"></i> print media query is active</div>
+            <div class="screen-media-query rule"><i class="fa fa-desktop"></i> screen media query is active</div>
+        </div>
+    </div>
+    <script src="assets/bundle.js"></script>
+    </body>
 </html>
